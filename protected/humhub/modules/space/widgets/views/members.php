@@ -20,7 +20,7 @@ use yii\helpers\Html;
         'extraMenus' => Html::tag('li', Link::asLink(Yii::t('SpaceModule.base', 'Show as List'))->icon('list')->options($showListOptions)),
     ]); ?>
     <div class="panel-heading"<?= Html::renderTagAttributes($showListOptions + ['style' => 'cursor:pointer']) ?>>
-        <?= Yii::t('SpaceModule.base', '<strong>Space</strong> members'); ?> (<?= $totalMemberCount ?>)
+        <?= Yii::t('SpaceModule.base', '<strong>Talk</strong> members'); ?> (<?= $totalMemberCount ?>)
     </div>
     <div class="panel-body">
         <?php foreach ($users as $user) : ?>

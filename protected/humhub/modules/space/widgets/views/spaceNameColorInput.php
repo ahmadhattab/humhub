@@ -32,7 +32,7 @@ if ($model->color === null) {
             </div>
             {error}{hint}',
     ])->textInput(array_merge([
-        'placeholder' => Yii::t('SpaceModule.manage', 'Space name'),
+        'placeholder' => Yii::t('SpaceModule.manage', 'Talk name'),
         'maxlength' => 45,
     ], ($focus ? ['autofocus' => ''] : []))); ?>
 </div>

@@ -30,7 +30,7 @@ class SpaceSearchProvider implements MetaSearchProviderInterface
      */
     public function getName(): string
     {
-        return Yii::t('SpaceModule.base', 'Spaces');
+        return Yii::t('SpaceModule.base', 'Talks');
     }
 
     /**
@@ -56,7 +56,7 @@ class SpaceSearchProvider implements MetaSearchProviderInterface
     {
         return $this->getService()->hasResults()
             ? Yii::t('base', 'Show all results')
-            : Yii::t('SpaceModule.base', 'Advanced Spaces Search');
+            : Yii::t('SpaceModule.base', 'Advanced Talks Search');
     }
 
     /**

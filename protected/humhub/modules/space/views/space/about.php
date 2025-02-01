@@ -13,7 +13,7 @@ use humhub\modules\user\widgets\Image;
 
 <div class="panel panel-default">
     <div class="panel-heading">
-        <?= Yii::t('SpaceModule.base', '<strong>About</strong> the Space') ?>
+        <?= Yii::t('SpaceModule.base', '<strong>About</strong> the Talk') ?>
     </div>
     <div class="panel-body">
         <?php if ($space->about || $space->description): ?>
@@ -95,7 +95,7 @@ use humhub\modules\user\widgets\Image;
                 <br/>
             </div>
             <div class="col-md-8">
-                <p><strong><?= Yii::t('SpaceModule.base', 'Space Visibility') ?></strong></p>
+                <p><strong><?= Yii::t('SpaceModule.base', 'Talk Visibility') ?></strong></p>
                 <p><i class="fa fa-globe colorInfo"></i> <?= Space::visibilityOptions()[$space->visibility] ?></p>
             </div>
         </div>

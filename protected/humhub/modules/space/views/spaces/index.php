@@ -20,7 +20,7 @@ CardsAsset::register($this);
 <div class="panel panel-default">
 
     <div class="panel-heading">
-        <?= Yii::t('SpaceModule.base', '<strong>Spaces</strong>'); ?>
+        <?= Yii::t('SpaceModule.base', '<strong>Talks</strong>'); ?>
     </div>
 
     <div class="panel-body">

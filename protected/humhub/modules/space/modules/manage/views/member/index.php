@@ -112,7 +112,7 @@ use yii\helpers\Html;
                                 return false;
                             },
                             'delete' => function ($url, $model) use ($space) {
-                                return Button::danger()->tooltip(Yii::t('SpaceModule.manage', 'Remove from space'))
+                                return Button::danger()->tooltip(Yii::t('SpaceModule.manage', 'Remove from talk'))
                                     ->link(['/space/manage/member/remove', 'userGuid' => $model->user->guid, 'container' => $space])
                                     ->options(['data-method' => 'POST', 'data-confirm' => Yii::t('SpaceModule.manage', 'Are you sure you want to remove this member.')])
                                     ->icon('remove')->xs();

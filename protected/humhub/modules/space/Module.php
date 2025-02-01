@@ -117,7 +117,7 @@ class Module extends \humhub\components\Module
 
     public function getName()
     {
-        return Yii::t('SpaceModule.base', 'Space');
+        return Yii::t('SpaceModule.base', 'Talk');
     }
 
     /**

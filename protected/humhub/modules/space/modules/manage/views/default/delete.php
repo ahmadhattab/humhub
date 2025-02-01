@@ -14,7 +14,7 @@ use humhub\widgets\Button;
 
 <div class="panel panel-default">
     <div class="panel-heading">
-        <?= Yii::t('SpaceModule.manage', '<strong>Space</strong> settings'); ?>
+        <?= Yii::t('SpaceModule.manage', '<strong>Talk</strong> settings'); ?>
     </div>
 
     <?= DefaultMenu::widget(['space' => $space]); ?>

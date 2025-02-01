@@ -29,7 +29,7 @@ SpaceAsset::register($this);
         </div>
         <div class="modal-body">
 
-            <?= Yii::t('SpaceModule.base', 'Access to this Space is restricted. Please introduce yourself to become a member.'); ?>
+            <?= Yii::t('SpaceModule.base', 'Access to this Talk is restricted. Please introduce yourself to become a member.'); ?>
 
             <br/>
             <br/>

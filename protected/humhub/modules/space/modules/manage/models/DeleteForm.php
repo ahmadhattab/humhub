@@ -49,7 +49,7 @@ class DeleteForm extends Model
     public function attributeLabels()
     {
         return [
-            'confirmSpaceName' => Yii::t('SpaceModule.base', 'Space Name'),
+            'confirmSpaceName' => Yii::t('SpaceModule.base', 'Talk Name'),
         ];
     }
 

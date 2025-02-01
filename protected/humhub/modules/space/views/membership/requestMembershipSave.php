@@ -17,7 +17,7 @@ use humhub\libs\Html;
         <div class="modal-body">
 
             <div class="text-center">
-                <?= Yii::t('SpaceModule.base', 'Your request was successfully submitted to the space administrators.'); ?>
+                <?= Yii::t('SpaceModule.base', 'Your request was successfully submitted to the talk administrators.'); ?>
             </div>
 
         </div>

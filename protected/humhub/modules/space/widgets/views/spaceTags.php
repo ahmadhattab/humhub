@@ -13,7 +13,7 @@ use yii\helpers\Url;
 
         <?= PanelMenu::widget(['id' => 'space-tags-panel']); ?>
 
-        <div class="panel-heading"><?= Yii::t('SpaceModule.base', '<strong>Space</strong> tags'); ?></div>
+        <div class="panel-heading"><?= Yii::t('SpaceModule.base', '<strong>Talk</strong> tags'); ?></div>
         <div class="panel-body">
             <div class="tags">
                 <?php foreach ($space->getTags() as $tag): ?>

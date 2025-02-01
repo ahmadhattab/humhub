@@ -17,7 +17,7 @@ use humhub\widgets\Button;
     <?= MemberMenu::widget(['space' => $space]); ?>
     <div class="panel-body">
 
-        <p><?= Yii::t('SpaceModule.manage', 'As owner of this space you can transfer this role to another administrator in space.'); ?></p>
+        <p><?= Yii::t('SpaceModule.manage', 'As owner of this talk you can transfer this role to another administrator in talk.'); ?></p>
 
         <?php $form = ActiveForm::begin([]); ?>
 

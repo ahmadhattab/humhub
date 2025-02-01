@@ -8,7 +8,7 @@ return [
     'class' => Module::class,
     'isCoreModule' => true,
     'events' => [
-        ['class' => TopMenu::class, 'event' => TopMenu::EVENT_INIT, 'callback' => ['\humhub\modules\dashboard\Events', 'onTopMenuInit']],
+        //['class' => TopMenu::class, 'event' => TopMenu::EVENT_INIT, 'callback' => ['\humhub\modules\dashboard\Events', 'onTopMenuInit']],
     ],
     'urlManagerRules' => [
         'dashboard' => 'dashboard/dashboard',

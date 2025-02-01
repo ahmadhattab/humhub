@@ -103,7 +103,7 @@ class InviteForm extends Model
             'inviteEmails' => Yii::t('SpaceModule.base', 'New user by e-mail (comma separated)'),
             'allRegisteredUsers' => Yii::t('SpaceModule.base', 'Select all registered users'),
             'withoutInvite' => Yii::t('SpaceModule.base', 'Add users without invitation'),
-            'addDefaultSpace' => Yii::t('SpaceModule.base', 'Add as Default Space for new users'),
+            'addDefaultSpace' => Yii::t('SpaceModule.base', 'Add as Default Talk for new users'),
         ];
     }
 

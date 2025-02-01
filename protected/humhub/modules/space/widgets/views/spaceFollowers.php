@@ -21,7 +21,7 @@ use yii\helpers\Html;
     ]) ?>
 
     <div class="panel-heading"<?= Html::renderTagAttributes($showListOptions + ['style' => 'cursor:pointer']) ?>>
-        <?= Yii::t('SpaceModule.base', '<strong>Space</strong> followers') ?> (<?= $totalFollowerCount ?>)
+        <?= Yii::t('SpaceModule.base', '<strong>Talk</strong> followers') ?> (<?= $totalFollowerCount ?>)
     </div>
 
     <div class="panel-body">

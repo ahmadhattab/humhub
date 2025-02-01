@@ -112,8 +112,8 @@ class AdvancedSettings extends Model
     public function attributeHints()
     {
         return [
-            'indexUrl' => Yii::t('SpaceModule.base', 'The default homepage for members of this Space'),
-            'indexGuestUrl' => Yii::t('SpaceModule.base', 'The default homepage for non-members and guests visiting this Space'),
+            'indexUrl' => Yii::t('SpaceModule.base', 'The default homepage for members of this Talk'),
+            'indexGuestUrl' => Yii::t('SpaceModule.base', 'The default homepage for non-members and guests visiting this Talk'),
             'defaultStreamSort' => Yii::t('SpaceModule.base', 'Default Stream Sort'),
         ];
     }

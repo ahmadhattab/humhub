@@ -19,7 +19,7 @@ SpaceAsset::register($this);
                 <?= Yii::t('SpaceModule.manage', 'Add <strong>Modules</strong>') ?>
             </h4>
             <div
-                class="help-block"><?= Yii::t('SpaceModule.manage', 'Choose the modules you want to use for this Space. If you are undecided, you can also activate them later on via the Space settings.') ?></div>
+                class="help-block"><?= Yii::t('SpaceModule.manage', 'Choose the modules you want to use for this Talk. If you are undecided, you can also activate them later on via the Talk settings.') ?></div>
         </div>
         <div class="modal-body">
             <div class="container container-cards container-modules container-create-space-modules">
