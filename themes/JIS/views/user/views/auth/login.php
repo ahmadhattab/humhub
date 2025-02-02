@@ -22,6 +22,7 @@ $this->pageTitle = Yii::t('UserModule.auth', 'Login');
 
 <div id="user-auth-login" class="container" style="text-align: center;">
     <?= SiteLogo::widget(['place' => 'login']); ?>
+    <h2 style="color: white">Meet Your Partner</h2>
     <br>
 
     <div class="panel panel-default animated bounceIn" id="login-form"
