@@ -43,7 +43,7 @@ class PoweredBy extends Widget
      */
     public function run()
     {
-        return Yii::t('base', 'Powered by {name}', ['name' => $this->getHumHubName()]);
+        return Yii::t('base', '{name}', ['name' => $this->getHumHubName()]);
     }
 
     public static function isHidden(): bool
@@ -54,14 +54,14 @@ class PoweredBy extends Widget
     protected function getHumHubName(): string
     {
         if ($this->textOnly) {
-            return 'HumHub (https://www.humhub.com)';
+            return 'MADE WITH LOVE';
         }
 
         if (!isset($this->linkOptions['target'])) {
             $this->linkOptions['target'] = '_blank';
         }
 
-        return Html::a('HumHub', 'https://www.humhub.com', $this->linkOptions);
+        return Html::a('MADE WITH LOVE', 'https://jordaninnovationstartups.org', $this->linkOptions);
     }
 
 }
