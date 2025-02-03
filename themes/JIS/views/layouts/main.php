@@ -10,6 +10,7 @@ use humhub\widgets\NotificationArea;
 use humhub\widgets\SiteLogo;
 use humhub\widgets\TopMenu;
 use humhub\widgets\TopMenuRightStack;
+use yii\helpers\Url;
 
 /* @var $this View */
 /* @var $content string */
@@ -43,6 +44,10 @@ AppAsset::register($this);
 
         <div class="notifications pull-right">
             <?= NotificationArea::widget() ?>
+                <a href="#" class="btn btn-info" data-action-click="ui.modal.load"
+                   data-action-url="<?= Url::to(['/space/create/create']) ?>">
+                    <?= Yii::t('SpaceModule.chooser', 'Create Talk') ?>
+                </a>
             <strong>BETA</strong>
         </div>
     </div>
