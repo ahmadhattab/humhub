@@ -6477,3 +6477,6 @@ ul.tag_input li img {
   color: white !important;
   background: #0077B5;
 }
+.login-container .authChoice {
+  text-align: center;
+}
