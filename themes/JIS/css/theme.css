@@ -939,7 +939,7 @@ img {
   border-radius: 4px;
 }
 .panel .panel-heading .heading-link {
-  color: #000000 !important;
+  color: #6fdbe8 !important;
   font-size: 0.8em;
 }
 .panel .panel-body {
@@ -6472,4 +6472,8 @@ ul.tag_input li img {
 .login-container {
   background-image: inherit;
   padding: 0;
+}
+.login-container a.auth-link {
+  color: white !important;
+  background: #0077B5;
 }
