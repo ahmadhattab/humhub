@@ -31,6 +31,11 @@ AppAsset::register($this);
 <?= Html::beginTag('body', ['class' => DeviceDetectorHelper::getBodyClasses()]) ?>
 <?php $this->beginBody() ?>
 
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NXK5LLG5"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
 <!-- start: first top navigation bar -->
 <div id="topbar-first" class="topbar">
     <div class="container">
