@@ -5,12 +5,10 @@
  * @see https://docs.humhub.org/docs/admin/advanced-configuration
  */
 return [
-    'defaultRoute' => '/space/spaces',
     'components' => [
         'user' => [
             'returnUrl' => '/space/spaces'
         ]
-    ],
-    'homeUrl' => '/space/spaces'
+    ]
 ];
 

@@ -34,9 +34,9 @@ class Events
 
         $topMenu->addEntry(new MenuLink([
             'id' => 'dashboard',
-            'label' => Yii::t('DashboardModule.base', 'Dashboard'),
+            'label' => Yii::t('DashboardModule.base', 'Feed'),
             'url' => ['/dashboard/dashboard'],
-            'icon' => 'dashboard',
+            'icon' => 'feed',
             'sortOrder' => 100,
             'isActive' => ControllerHelper::isActivePath('dashboard'),
         ]));
