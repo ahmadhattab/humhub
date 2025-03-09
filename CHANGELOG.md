@@ -1,8 +1,8 @@
 HumHub Changelog
 ================
 
-1.17.1 (Unreleased)
--------------------
+1.17.1 (March 6, 2025)
+----------------------
 - Fix #7377: Configured Redis cache key prefix was overwritten by the default value
 - Fix #7375: Use default language for email invitation and show language chooser on registration form
 - Enh #7383: Improve SelfTest for Base URL 
@@ -13,6 +13,12 @@ HumHub Changelog
 - Fix: Always allow admins to edit/delete content in the other Profile stream
 - Fix #7414: Fix profile field encoding
 - Fix #7419: Reset modal window after close
+- Fix #7428: Fix picker autofocus
+- Enh #7424: New event on get registration groups
+- Enh #7437: Add beforeInitCallback `humhub.ui.picker`
+- Fix #7441: Hide "Remember me" option on mobile app
+- Enh #7408: Update code to manage users from external modules
+- Fix #7453: Fix registration form submit
 
 1.17.0 (January 13, 2025)
 -------------------------
