@@ -6,6 +6,10 @@
  * @license https://www.humhub.com/licences
  */
 
+
+
+
+
 require(__DIR__ . '/protected/vendor/autoload.php');
 
 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__, '.env');
